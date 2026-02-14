@@ -1,5 +1,5 @@
-/*Realize a soma de dois elementos. FaÁa isso atravÈs de uma funÁ„o, a qual ser· chamada
-na funÁ„o principal.*/
+/*Realize a soma de dois elementos. Fa√ßa isso atrav√©s de uma fun√ß√£o, a qual ser√° chamada
+na fun√ß√£o principal.*/
 
 #include<stdio.h>
 #include<conio.h>
@@ -30,4 +30,6 @@ float soma=num1+num2;
 return soma;
 
 }
+
+//funcoes
 
