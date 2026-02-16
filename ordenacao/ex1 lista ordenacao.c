@@ -29,3 +29,5 @@ printf("\n A ordem, crescente, dos numeros inseridos eh: %d",num[i]);
 }
 }
 
+//ordenacao (aqui ja utilizando for)
+
