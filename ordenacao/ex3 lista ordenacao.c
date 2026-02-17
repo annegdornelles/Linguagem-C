@@ -50,3 +50,5 @@ for (i=0;i<cont;i++){
 }
         
 }
+
+//uso de for, do e while
