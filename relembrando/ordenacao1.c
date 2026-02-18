@@ -2,19 +2,14 @@
 //relembrando como fzr ordenacao: bubblesort(loop, compara com os vizinhos), selection sort(pega o menor e define), qsort(proprio do C)
 
 int main(){
-    int n1, n2, n3, n4;
+    int n[4],i;
+
+    for (i=0;i<4;i++){
 
     printf("Insira um numero:\n");
-    scanf ("%d",&n1);
+    scanf ("%d",&n[i]);
 
-    printf("Insira um numero:\n");
-    scanf ("%d",&n2);
-
-    printf("Insira um numero:\n");
-    scanf ("%d",&n3);
-
-    printf("Insira um numero:\n");
-    scanf ("%d",&n4);
+    }
 }
 
 int ordenacao(){
