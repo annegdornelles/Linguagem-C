@@ -78,3 +78,5 @@ return media;
 
 }
 
+//prototipo da funcao no inicio
+
