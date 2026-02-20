@@ -30,3 +30,5 @@ for (i=0;i<tam;i++){
     printf ("Palavra na ordem crescente:%s",str);
 
 }
+
+//da pra comparar letras como numeros
