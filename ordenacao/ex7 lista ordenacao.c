@@ -1,6 +1,6 @@
 /*Armazenar nomes e notas das PR1 e PR2 de 15 alunos. Calcular e
-armazenar a média arredondada.Armazenar também a situação do aluno: AP
-ou RP. Imprimir uma listagem contendo nome, média e situação de cada
+armazenar a mÃ©dia arredondada.Armazenar tambÃ©m a situaÃ§Ã£o do aluno: AP
+ou RP. Imprimir uma listagem contendo nome, mÃ©dia e situaÃ§Ã£o de cada
 aluno, tabulando.*/
 
 #include<stdio.h>
@@ -34,4 +34,4 @@ for (i=0;i<5;i++){
     printf (" reprovado");
 }
 
-}
+}//sistema de notas aluno
