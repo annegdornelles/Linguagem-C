@@ -91,4 +91,4 @@ main (){
         break;
     }
     }
-
+//treinando mecanismos importantes. apenas usar fgets
