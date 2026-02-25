@@ -1,6 +1,6 @@
-/*Escreva um programa que recebe do usu·rio uma string S, um caractere C, e uma posiÁ„o I e devolve o
-Ìndice da primeira posiÁ„o da string onde foi encontrado o caractere C. A procura deve comeÁar a partir da
-posiÁ„o I.*/
+/*Escreva um programa que recebe do usu√°rio uma string S, um caractere C, e uma posi√ß√£o I e devolve o
+√≠ndice da primeira posi√ß√£o da string onde foi encontrado o caractere C. A procura deve come√ßar a partir da
+posi√ß√£o I.*/
 
 #include<stdio.h>
 #include<string.h>
@@ -25,4 +25,4 @@ main (){
 
   printf ("%d",t);
 }
-
+//
