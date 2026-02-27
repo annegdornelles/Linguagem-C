@@ -1,5 +1,5 @@
-/*Escreva em C a função CONTA. A função recebe uma string (nome) e devolve via
-parâmetros: número letras maiúsculas e o número letras minúsculas. A função retorna
+/*Escreva em C a funÃ§Ã£o CONTA. A funÃ§Ã£o recebe uma string (nome) e devolve via
+parÃ¢metros: nÃºmero letras maiÃºsculas e o nÃºmero letras minÃºsculas. A funÃ§Ã£o retorna
 o total de letras do nome.*/
 
 #include <stdio.h>
@@ -29,8 +29,8 @@ int main() {
     maiusc2=CONTA(maiusc);
     minusc2=CONTA(minusc);
 
-    printf("Número de letras maiusculas: %d\n", maiusc);
-    printf("Número de letras minusculas: %d\n", minusc);
+    printf("NÃºmero de letras maiusculas: %d\n", maiusc);
+    printf("NÃºmero de letras minusculas: %d\n", minusc);
 
     return 0;
-}
+}//
