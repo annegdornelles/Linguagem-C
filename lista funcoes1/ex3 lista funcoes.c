@@ -1,5 +1,5 @@
-/*Escreva em C a função VERIFICA_QUADRANTE. A função recebe um valor para x e um
-valor para y e retorna o número do quadrante (1,2,3 ou 4).*/
+/*Escreva em C a funÃ§Ã£o VERIFICA_QUADRANTE. A funÃ§Ã£o recebe um valor para x e um
+valor para y e retorna o nÃºmero do quadrante (1,2,3 ou 4).*/
 
 #include<stdio.h>
 
@@ -32,4 +32,4 @@ printf("\n Estao no terceiro quadrante.");}
 if((x>0)&&(y<0)){
 printf("\n Estao no quarto quadrante.");
 }
-}
+}//

@@ -86,6 +86,9 @@ for (i=0;i<3;i++){
     }
     break;
 
+
+    //
+
 default:
 printf ("Codigo invalido");
 }

@@ -1,40 +1,38 @@
-/*Escreva em C a função CONTA. A função recebe uma string (nome) e devolve via
-parâmetros: número letras maiúsculas e o número letras minúsculas. A função retorna
+/*Escreva em C a funÃ§Ã£o CONTA. A funÃ§Ã£o recebe uma string (nome) e devolve via
+parÃ¢metros: nÃºmero letras maiÃºsculas e o nÃºmero letras minÃºsculas. A funÃ§Ã£o retorna
 o total de letras do nome.*/
 
 #include <stdio.h>
 #include <string.h>
 
-int conta (char str [],int *maiusc,int *min,int *t);
+int conta(char str[], int *maiusc, int *min) {
 
-main (){
+    int t = strlen(str);
 
-char str[100];
-int maiusc=0,min=0,t=0;
+    for (int i = 0; i < t; i++) {
 
-printf ("Insira a string:");
-gets (str);
+        if (str[i] >= 'a' && str[i] <= 'z')
+            (*min)++;
 
-conta(str, &maiusc, &min, &t);
+        else if (str[i] >= 'A' && str[i] <= 'Z')
+            (*maiusc)++;
+    }
 
-printf ("\n Total:%d\n Numero maiusculas:%d\n Numero minusculas:%d",t,maiusc,min);
-
-return 0;
-
+    return t;
 }
 
-int conta (char str[],int *maiusc,int *min,int *t){
+int main() {
 
-*t=strlen (str);
+    char str[100];
+    int maiusc = 0, min = 0, total;
 
-for (int i=0;i<*t;i++){
+    printf("Insira a string: ");
+    fgets(str, 100, stdin);
 
-if (str[i]>='a'&&str[i]<='z'){
-(*min)++;
-}
+    total = conta(str, &maiusc, &min);
 
-else
-(*maiusc)++;
-}
+    printf("\nTotal: %d\nMaiusculas: %d\nMinusculas: %d\n",
+           total, maiusc, min);
 
+    return 0;
 }

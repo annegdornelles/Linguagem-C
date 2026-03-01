@@ -24,6 +24,9 @@ for (i=0;i<5;i++){
         break;
     }
 
+        //strcmp = compara strings caractere por caractere
+        //inves de gets use fgets
+
     else
     printf ("Nome nao encontrado"); //qualquer coisa tira o else
 }
