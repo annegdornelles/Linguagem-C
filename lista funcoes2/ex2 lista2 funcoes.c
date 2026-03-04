@@ -1,6 +1,6 @@
-/*Elabore uma função que receba três nnotas de um aluno como parâmetro e uma letra. Se a
-letra for ‘A’, a função deve calcular a média aritmética das notas do aluno; se a letra for ‘P’,
-deverá calcular a média ponderada, com pesos 5,3 e 2. Retorne a média calculada para o
+/*Elabore uma funÃ§Ã£o que receba trÃªs nnotas de um aluno como parÃ¢metro e uma letra. Se a
+letra for â€˜Aâ€™, a funÃ§Ã£o deve calcular a mÃ©dia aritmÃ©tica das notas do aluno; se a letra for â€˜Pâ€™,
+deverÃ¡ calcular a mÃ©dia ponderada, com pesos 5,3 e 2. Retorne a mÃ©dia calculada para o
 programa principal.*/
 
 #include<stdio.h>
@@ -41,7 +41,7 @@ float media=0;
 if (letra=='a'){
 media=(nota1+nota2+nota3)/3;
 printf ("Media aritmetica:%f",media);
-}
+}//
 
 if (letra=='p'){
 media = (nota1*5+nota2*3+nota3*2)/10;
