@@ -2,6 +2,7 @@
 letra for ‘A’, a função deve calcular a média aritmética das notas do aluno; se a letra for ‘P’,
 deverá calcular a média ponderada, com pesos 5,3 e 2. Retorne a média calculada para o
 programa principal.*/
+//da pra fzr com vetor
 
 #include<stdio.h>
 #include<string.h>
