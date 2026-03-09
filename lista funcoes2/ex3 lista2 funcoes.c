@@ -1,7 +1,7 @@
-/*Elabore uma função que receba um vetor contendo N valores e retorne por referência o
-maior elemento do vetor e o número de vezes que esse elemento ocorreu no vetor*/
+/*Elabore uma funÃ§Ã£o que receba um vetor contendo N valores e retorne por referÃªncia o
+maior elemento do vetor e o nÃºmero de vezes que esse elemento ocorreu no vetor*/
 
-#include<stdio.h>
+#include<stdio.h>//
 
 float va(float v[],int n,float *maior,int *cont);
 

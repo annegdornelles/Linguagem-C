@@ -1,6 +1,6 @@
-/*- Escreva em C a função VERIFICA. A função recebe um número inteiro (n). A função deve
-devolver na variável resto o resto inteiro da divisão. A função deve retornar se o número (n) é
-par (1) ou ímpar (0).*/
+/*- Escreva em C a funÃ§Ã£o VERIFICA. A funÃ§Ã£o recebe um nÃºmero inteiro (n). A funÃ§Ã£o deve
+devolver na variÃ¡vel resto o resto inteiro da divisÃ£o. A funÃ§Ã£o deve retornar se o nÃºmero (n) Ã©
+par (1) ou Ã­mpar (0).*/
 
 #include<stdio.h>
 
@@ -29,4 +29,5 @@ int verifica (int n) {
 
     return resto;
 }
+//
 

@@ -23,3 +23,5 @@ main()
 
     printf("\nParte fracionaria: %f", parte_fracao);
 }
+
+//dividir numero em parte inteiro e parte fracionaria usando funcao
